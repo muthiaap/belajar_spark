@@ -27,7 +27,7 @@ spark_jars = Variable.get("spark_jars", default_var="/tmp/docker-desktop-root/mn
 spark_script = Variable.get("spark_script", default_var="/tmp/docker-desktop-root/mnt/host/c/Users/Muthia/Downloads/scrapt/dibimbing_spark_airflow-main/pyspark_script.py")
 db_url = Variable.get("db_url", default_var="jdbc:postgresql://localhost:5432/postgres")
 db_user = Variable.get("db_user", default_var="postgres")
-db_password = Variable.get("db_password", default_var="26111999Map")
+db_password = Variable.get("db_password", default_var="****")
 
 submit_spark_job = SparkSubmitOperator(
     task_id='submit_job',
