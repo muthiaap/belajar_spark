@@ -18,7 +18,7 @@ def main():
             .option("url", os.getenv("DB_URL", "jdbc:postgresql://localhost:5432/postgres")) \
             .option("dbtable", "retail") \
             .option("user", os.getenv("DB_USER", "postgres")) \
-            .option("password", os.getenv("DB_PASSWORD", "26111999Map")) \
+            .option("password", os.getenv("DB_PASSWORD", "****")) \
             .option("driver", "org.postgresql.Driver") \
             .load()
 
@@ -40,7 +40,7 @@ def main():
             .option("url", os.getenv("DB_URL", "jdbc:postgresql://localhost:5432/postgres")) \
             .option("dbtable", "retail_analysis_result") \
             .option("user", os.getenv("DB_USER", "postgres")) \
-            .option("password", os.getenv("DB_PASSWORD", "26111999Map")) \
+            .option("password", os.getenv("DB_PASSWORD", "****")) \
             .option("driver", "org.postgresql.Driver") \
             .mode("overwrite") \
             .save()
